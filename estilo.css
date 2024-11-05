@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    cursor: url(cursor4.png), auto;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    height: 90px;
+    width: 125px;
+    margin-left: 630px;
+}
+
+.portada {
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+div.redes {
+    margin-left: 500px;
+    word-spacing: 40px;
+    margin-top: 40px;
+    color: black;
+}
+
+.portada1 {
+    height: 400px;
+    width: 600px;
+    text-align: right;
+    margin-left: 60px;
+}
+
+.container {
+    display: flex;
+}
+
+h2{
+        font-family: 'Arial', sans-serif;
+        font-size: 36px;
+        color: blanchedalmond;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: bold;
+        position: relative;
+        background-color: #ca39e7;
+}
+
+p {
+    color: antiquewhite;
+    font-size: 22px;
+}
+
+.joven {    
+    margin-left: 475px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+mark {
+    background-color: hsl(187, 53%, 82%);
+}
+
+.paudio {
+    background-color: #ad2cb18b; 
+    border-radius: 10px; 
+    padding: 20px;
+    border-left: 300px;
+    margin-left: 520px;
+    margin-right: 615px;
+}
+
+.flecha1 {
+width: 150px;
+right: 15px;
+border-left: 800px;
+}
+
+nav {
+    width: 35px;
+    right: 35px;
+    border-left: 800px;
+}
+
+.album-list {
+    list-style-type: none;
+    background-color: hsla(296, 18%, 85%, 0.799);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    border-left: 600px;
+}
+
+.album-list li {
+    background-color: hwb(252 18% 25% / 0.936);
+    border-radius: 6px;
+    padding: 12px;
+    color: hwb(0 94% 6%);
+    text-align: center;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    width: 300px;
+    opacity: 4;
+    filter: contrast(120%);
+}
+
+.albums {    
+    margin-left: 310px;
+    width: 800px;
+    height: 500px;
+}
+
+.video {
+    margin-left: 500px;
+    width: 500px;
+    height: 300px;
+}
